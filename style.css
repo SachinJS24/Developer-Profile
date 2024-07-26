@@ -1,6 +1,7 @@
 html {
     font-size: 16px;
 }
+
 body{
     background-color: #FFF8F0;
     font-family: 'Inter' sans-serif;
@@ -8,14 +9,20 @@ body{
     line-height: 24px;
     letter-spacing: 0cm;
     color: #55206D;
+    margin: 0;
+    padding: 0;
 }
+
 h1 {
     font-family: "League Spartan" sans-serif;
     font-size: 48px;
     font-weight: 700;
     line-height: 50px;
     color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
+
 h2 {
     font-family: "League Spartan" sans-serif;
     font-size: 36px;
@@ -23,10 +30,54 @@ h2 {
     line-height: 40px;
     color: #000000;
 }
+
 .bigtext {
     color: #331E6A;
     font-size: 18px;
     font-family: Poppins;
     font-weight: 400;
     line-height: 32px;
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1440px;
+    margin; 0  auto;
+}
+
+#hero-text {
+    width: 50%;
+    padding: 32px 20px 32px 20px ;
+}
+
+#hero-image-wrapper {
+    width: 50%;
+}
+
+#hero-image {
+    width: 100%;
+    border-top-left-radius: 300px;
+}
+.small-text {
+    font-family: "Inter" , sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+}
+
+#hi-and-name {
+    margin-top: 52px;
+}
+
+#contact-button {
+    background-color: #2f2f2f;
+    height: 44px;
+    width: 138px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #ffffff;
+    margin-top: 20px;
 }
