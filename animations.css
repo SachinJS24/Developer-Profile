@@ -1,0 +1,203 @@
+
+/* General Animations starts here */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes hoverPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+      opacity: 0;
+      transform: translateY(100%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+/* General animations ends here */
+
+
+/* Hero Section animation starts here*/
+#hero-section {
+  animation: fadeIn 1s ease-in-out;
+}
+
+#hero-image {
+  animation: zoomIn 1.5s ease;
+  transition: transform 0.5s ease;
+}
+
+#hero-image:hover {
+  transform: scale(1.1);
+}
+/* Hero section animation ends here */
+
+/* Buttons animation starts here */
+#contact-button {
+  transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+#contact-button:hover {
+  animation: hoverPulse 0.5s infinite;
+  background-color: #55206D;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/* Buttons animation ends here */
+
+/* Cards (What I Do & Pricing)  animations starts here*/
+.whatido-card,
+.pricing-card {
+  animation: fadeIn 1s ease-in-out;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.whatido-card:hover,
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+/* Cards animation ends here */
+
+/* Boxes  animation starts here*/
+.blue-box,
+.blue-box-second,
+.Blue-box-third {
+  animation: zoomIn 1s ease-in-out;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.blue-box:hover,
+.blue-box-second:hover,
+.Blue-box-third:hover {
+  transform: scale(1.1) rotate(10deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+/* Boxes animation ends here */
+
+/* Footer animation starts here  */
+#footer {
+  animation: fadeIn 2s ease-in-out;
+}
+/* Footer animation ends here */
+
+/* Visitors Section  animation starts here*/
+#visitors {
+  animation: fadeIn 2.5s ease-in-out;
+}
+/*Visitor Section animation ends here  */
+
+/* Heading Rotations animation stars here */
+.heading-of-whatido,
+.mypro-heading,
+.overtitle {
+  animation: rotate 4s linear infinite alternate;
+}
+/* Heading Rotations animation ends here */
+
+/* Smooth Background Gradient Animation starts here */
+@keyframes gradientShift {
+  0% {
+      background: linear-gradient(120deg, #FFDEE9, #B5FFFC);
+  }
+  50% {
+      background: linear-gradient(120deg, #A7FFEB, #FF9CEE);
+  }
+  100% {
+      background: linear-gradient(120deg, #FFD700, #ADD8E6);
+  }
+}
+
+#hero-image:hover {
+  transform: scale(1.4);
+}
+/* Smooth Background Gradient Animation ends here */
+
+/* Cards Section (Grid with Hover Transformations) animation starts here */
+.whatido-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, background-color 0.5s;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.whatido-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  background-color: #F0EFFF;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+/* Cards section animation ends here */
+
+/* Pricing Boxes animation starts here */
+.pricing-card:hover {
+  transform: translateY(-15px) rotate(3deg);
+  background-color: #FFF5E1;
+}
+/* Pricing Boxes animation ends here */
+
+/* Footer with Flexbox and Fade-in animation starts here */
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  animation: fadeIn 2s ease-in-out;
+}
+/* Footer with flexbox and fade-in animation ends here */
+
+/* Buttons with Animated Background starts here */
+#contact-button {
+  background: linear-gradient(90deg, #2858ff, #00A6FB);
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, background-position 0.3s;
+  background-size: 200%;
+}
+
+#contact-button:hover {
+  background-position: right;
+  transform: translateY(-5px);
+}
+/* Buttons with Animated Background ends here */
