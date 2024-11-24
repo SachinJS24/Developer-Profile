@@ -1,0 +1,498 @@
+/* Css reset styles starts here */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Css reset styles ends here */
+
+
+/* Css for body starts here */
+html {
+    font-size: 16px;
+}
+
+body {
+    background: linear-gradient(120deg, #FFDEE9, #B5FFFC);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    color: #55206D;
+    margin: 0;
+    padding: 0;
+    animation: gradientShift 10s infinite alternate;
+}
+/* Css for body ends here */
+
+/* Css for heading starts here */
+h1,
+h2 {
+    text-align: center;
+}
+
+h1 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    color: #190D37;
+    margin: 10px 0;
+    animation: slideInDown 1s ease-out;
+  }
+
+h2 {
+    font-family: "League Spartan", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  /* Css for heading ends here */
+
+  /* Css for hero section starts here */
+  .call-at  {
+    text-decoration: none;
+    color: #55206D;
+  }
+
+  .mail-at {
+    text-decoration: none;
+    color: #55206D;
+  }
+
+.bigtext {
+    color: #331E6A;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#hero-section {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+#hero-text {
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+}
+
+#hero-image-wrapper {
+    width: 50%;
+}
+
+#hero-image {
+    width: 100%;
+    border-top-left-radius: 150px;
+    margin-top: 80px;
+}
+
+.small-text {
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #000000;
+}
+
+#hi-and-name {
+    margin-top: 52px;
+}
+
+#contact-button {
+    background-color: #2f2f2f;
+    height: 44px;
+    width: 138px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+/* Css for hero section ends here */
+
+/* Css for what i do section starts here */
+#horizontal-boxes {
+    display: flex;
+}
+
+#what-i-do {
+    max-width: 1060px;
+    margin: 48px auto;
+}
+
+.heading-of-whatido {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2858ff;
+    margin-bottom: 30px;
+}
+
+
+.whatido-heading {
+    font-family: "League Spartan" sans-serif;
+    font-weight: 700;
+    line-height: 40px;
+    color: #000000;
+    text-align: center;
+}
+
+.another-text {
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 740px;
+}
+
+
+.whatido-card {
+    background-color: #ffffff;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+}
+
+.first-box {
+    width: 33%;
+}
+/* Css for what i do section ends here */
+
+/* Css for my projects section starts here */
+#my-project-section {
+    max-width: 1060px;
+    margin: 48px auto;
+}
+
+.mypro-heading {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2858ff;
+    margin-bottom: 35px;
+}
+
+.another-text1 {
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 740px;
+}
+
+.very-first-box {
+    display: flex;
+}
+
+.very-first-box {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.blue-box-second {
+    font-size: 45px;
+    font-family: Poppins;
+    padding: 70px 60px;
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+}
+
+.Blue-box-third {
+    font-size: 45px;
+    font-family: Poppins;
+    padding: 70px 60px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.blue-box {
+    font-size: 45px;
+    font-family: Poppins;
+    padding: 70px 60px;
+    background-color: #2858ff;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.normal-box {
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+}
+
+#pricing-section {
+    max-width: 1060px;
+    margin: 48px auto;
+}
+/* Css for My projects section ends here */
+
+/* Css for Services and Pricing section starts here */
+.overtitle {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #2858ff;
+    margin-bottom: 30px;
+}
+
+.section-heading {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.bigtext {
+    text-align: center;
+    margin: 8px auto 48px auto;
+    max-width: 740px;
+}
+
+#pricing-boxes {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.pricing-box {
+    width: 33.33%;
+}
+
+.pricing-card {
+    background-color: #ffffff;
+    margin: 0 10px;
+    border-radius: 10px;
+    box-shadow: 6px 2px 25px -9px #0000001A;
+    padding: 20px;
+}
+
+.service {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #2858ff;
+}
+
+.price {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin-top: 8px;
+
+}
+
+.price-per {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8A8A8A;
+}
+
+.service-description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #8B8B8B;
+    margin-top: 8px;
+
+}
+
+.service-benefits {
+    padding-left: 15px;
+    list-style-type: disc;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Service-contact-button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    border-width: 2px;
+    color: #2f2f2f;
+    line-height: 19px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.Service-contact-button:hover {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.box-2 {
+    background-color: #ffD748;
+}
+/* Css for services and pricing section ends here */
+
+/* Css for visitors row starts here */
+#visitors {
+    font-style: oblique;
+    text-align: center;
+    padding-top: 20px;
+    height: fit-content;
+}
+/* Css for visitors row ends here */
+
+/* Css for footer section starts here */
+#footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    margin-top: 48px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: oem;
+}
+/* Css for footer section ends here */
