@@ -211,7 +211,7 @@ h2 {
 
 #hero-image {
     width: 100%;
-    border-top-left-radius: 150px;
+    border-radius: 300px;
     margin-top: 80px;
 }
 
